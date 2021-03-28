@@ -12,11 +12,6 @@ class App extends React.Component {
           <div className="logo">
             <a href=".">Youtimo</a>
           </div>
-          <div className="social">
-            <h1 style={{ textAlign: "center", fontWeight: "800", fontSize: "20px" }}>
-              6003543391
-            </h1>
-          </div>
         </div>
         <div className="content">
           <div className="title-holder">
@@ -26,8 +21,8 @@ class App extends React.Component {
               you're curious.
             </p>
           </div>
-          <a href="mailto:youtimoindia@gmail.com">
-            <div className="cta">Send us an email</div>
+          <a href="tel:+916003543391">
+            <div className="cta">Call Us</div>
           </a>
         </div>
       </div>
