@@ -1,10 +1,15 @@
 .card {
   width: 90%;
-  height: 80%;
+  height: 90%;
   margin: auto;
   min-height: 512px;
-  box-shadow: 0px 35px 70px 0px rgba(255, 163, 125, 0.65), 0px 30px 40px -10px rgba(255, 100, 124, 0.55);
-  background: linear-gradient(180deg, rgba(255, 163, 125, 1) 0%, rgba(255, 99, 124, 1) 100%);
+  box-shadow: 0px 35px 70px 0px rgba(255, 163, 125, 0.65),
+    0px 30px 40px -10px rgba(255, 100, 124, 0.55);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 163, 125, 1) 0%,
+    rgba(255, 99, 124, 1) 100%
+  );
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -21,7 +26,8 @@
 
 .header {
   display: flex;
-  padding: 48px;
+  padding: 20px;
+  padding-top: 30px;
   justify-content: space-between;
   align-items: center;
   color: #fff;
@@ -39,6 +45,7 @@
 
 .social {
   display: flex;
+  flex-direction: column;
 }
 
 .social a {
